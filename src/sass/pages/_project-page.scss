@@ -1,0 +1,117 @@
+.project {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    &-wrapper {
+        position: relative;
+        padding: 20px 30px 50px 30px;
+        background-color: rgba(255, 255, 255, 0.8);
+        .icon {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            max-height:70px;
+            max-width: 70px;
+        }
+    }
+    &-bar {
+        margin-bottom: 40px;
+        padding: 0 50px;
+    }
+    &-info {
+        padding: 0 50px 10px;
+        .text-header {
+            border-bottom: 4px solid #87ad25;
+            margin-bottom: 0;
+        }
+    }
+    &-donate {
+        padding: 0 50px;
+        &-content {
+            clear: both;
+            padding-top: 5px;
+        }
+
+        &-next {
+            color: #87ad25 !important;
+            font-size: 24px;
+            font-weight: 500;
+            text-decoration: none !important;
+        }
+        &-next:hover {
+            color: #95c127;
+            text-decoration: none;
+        }
+        &-container {
+            height: auto;
+            position: relative;
+            width: 100%;
+            &-image {
+                max-width: 100%;
+                max-height: 100%;
+            }
+            &-logo {
+                position: absolute;
+                top: -7%;
+                left: -7%;
+                max-width: 27%;
+                max-height: 36%;
+            }
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+        &-wrapper {
+            padding-top: 20px;
+        }
+        &-amount {
+            font-size: 24px;
+            font-weight: 600;
+            padding-top: 10px;
+        }
+        &-message {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        &-second-image {
+            padding-top: 40px;
+        }
+        .tweet_icon {
+            margin-right: 5px;
+            width: auto;
+            height: 27px;
+        }
+        .facebook_icon {
+            width: auto;
+            height: 27px;
+        }
+    }
+    &-image {
+        padding: 0 50px;
+        img {
+            height: auto;
+            width: 100%;
+        }
+    }
+
+    .green-text {
+        color: #95c127;
+    }
+
+    p {
+        font-weight: 400;
+    }
+
+    .padding-top-20 {
+        padding-top: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .project {
+        padding: 0;
+        &-wrapper {
+            border-radius: 0;
+        }
+    }
+}

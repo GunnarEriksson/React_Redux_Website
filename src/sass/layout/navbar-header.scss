@@ -1,0 +1,37 @@
+.navbar-header {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    .navbar-brand {
+        padding-right: 0;
+        &-centered {
+            position: absolute;
+            left: 50%;
+            display: block;
+            width: 280px;
+            text-align: center;
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .navbar-header {
+        .navbar-toggle {
+            border-color: #95c127;
+            &:hover,
+            &:focus {
+                background-color: #87ad25;
+                .icon-bar {
+                    background-color: #fff;
+                }
+            }
+            .icon-bar {
+                background-color: #95c127;
+            }
+        }
+        .navbar-brand {
+            &-centered {
+                left: 0;
+            }
+        }
+    }
+}

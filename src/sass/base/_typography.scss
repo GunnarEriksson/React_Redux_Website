@@ -1,0 +1,8 @@
+.typography {
+  h1, .h1 {
+      @extend .h1;
+      margin-left: 8px;
+      font-size: 32px;
+      font-weight: 500;
+  }
+}

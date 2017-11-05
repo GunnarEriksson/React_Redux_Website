@@ -1,0 +1,17 @@
+.button {
+    &-green,
+    &-green:focus {
+        background-color: #95c127;
+        border-color: #95c127;
+        border-radius: 7px;
+        color: #fff;
+        outline: 0;
+        &:hover,
+        &:active,
+        &.active {
+            background: #87ad25 !important;
+            color: #fff !important;
+            outline: 0 !important;
+        }
+    }
+}

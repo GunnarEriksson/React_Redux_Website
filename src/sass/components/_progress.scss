@@ -1,0 +1,12 @@
+.progress {
+    height: 26px;
+    padding: 4px;
+    border-radius: 12px;
+    background-color: #95c127;
+    &-bar {
+        line-height: 18px;
+        font-size: 12px;
+        border-radius: 12px;
+        background-color: #2d663a;
+    }
+}
